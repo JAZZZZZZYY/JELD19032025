@@ -39,5 +39,6 @@ CREATE TABLE Users (
     Email VARCHAR(255) UNIQUE NOT NULL,     -- Correo electrónico del usuario (Correo electrónico del usuario)
     PasswordHash CHAR(32) NOT NULL,     -- Hash de la contraseña del usuario (Hash de la contraseña del usuario)
     Role VARCHAR(50) NOT NULL                -- Rol del usuario (Rol del usuario)
+
 );
 GO
